@@ -1,0 +1,7 @@
+.repo-detail {
+    padding: 30px !important;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: lightgray;
+    height: 50vh;
+}

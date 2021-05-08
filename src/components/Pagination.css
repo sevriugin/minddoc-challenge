@@ -1,0 +1,15 @@
+.pagination {
+    background-color: white !important;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pagination-control {
+    cursor: pointer;
+    font-weight: 700 !important;
+}
+
+.pagination-info {
+    margin-right: 100px;
+}

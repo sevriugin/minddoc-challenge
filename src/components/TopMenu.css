@@ -1,0 +1,10 @@
+.top-menu {
+    background-color: white !important;
+    margin-top: 30px; 
+    padding-right: 30px; 
+    padding-left: 30px;
+}
+
+.top-menu-item {
+    cursor: pointer;
+}
