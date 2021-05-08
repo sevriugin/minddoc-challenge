@@ -12,7 +12,7 @@
 
  - GET /repositories API returns object with url but not a actual paramaters  for most repos attributes (stars for example). Solution: use `GET /repo/{user}/{name}` call to get repo detail object when user is selected a repo. 
 
- - 60 calls limits for not authorized app. Solution: only use `GET /repo/{user}/{name}` for selected repo. `Promise.all(map.repos(repo => github.get(`/repo/${owner.login}/${repo.name}`)))` produce 403. 
+ - 60 calls limits for not authorized app. Solution: only use `GET /repo/{user}/{name}` for selected repo. `Promise.all(...)` produce 403. 
 
  - No sort option for GET /repositories call. Workaround / feature: sort and order is working only inside fetched chank of repos (100)
 
