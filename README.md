@@ -1,5 +1,7 @@
 # MindDoc Challenge App
 
+[App Running on vercel](https://minddoc.vercel.app/)
+
 ## App achitecture
 
 [App architecture](https://drive.google.com/file/d/1-68b8XOyxk_-T-059zT6204ZKfx5mqdE/view?usp=sharing)

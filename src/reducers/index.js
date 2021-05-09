@@ -69,7 +69,7 @@ const selectReducer = (selected = null, action) => {
  * @param {any} action 
  * @returns 
  */
-const paginationReducer = (pagination = {}, action) => {
+export const paginationReducer = (pagination = {}, action) => {
     if (action.type === 'FETCH_REPOS' || action.type === 'SEARCH_REPOS') {
         const {headers: { link: linkString }} = action.payload;
         const repos = action.type === 'SEARCH_REPOS' ? action.payload.data.items : action.payload.data; 
